@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EDEN</title>
     <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="/styles/carousel.css"/>
+    <link rel="stylesheet" href="/styles/buttons.scss"/>
+    <script src="https://kit.fontawesome.com/c908ae6a5b.js" crossorigin="anonymous"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/components/menu.js"></script>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -17,34 +20,126 @@
     <link rel="icon" href="desktop/EDEN/tablg.jpg"> 
   </head>
 
+<body>
+
   <nav>
+
+    <div class="navbar">
+      <div class="container nav-container">
+          <input class="checkbox" type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>  
+        <div class="logo">
+        </div>
+        <div class="menu-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">blogs</a></li>
+          <li><a href="#">portfolio</a></li>
+          <li><a href="#">contact</a></li>
+        </div>
+      </div>
+    </div>
+  
+
    <a href=""> <img id="mainlogo" src="/medias/edenlogotest.jpg"> </a>
+   <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
 
-   <button>
-    Réservations
-   </button>
+   <div id="btn"><span class="noselect">Réservation</span><div id="circle"></div></div>
+   <div id="btn"><span class="noselect">Gallerie</span><div id="circle"></div></div>
+   <div id="btn"><span class="noselect">Contact</span><div id="circle"></div></div>
+   
+   
+   
 
-   <button>
-Contact
-   </button>
+   
+   <!--
+<div class="btn_container">
 
-   <button>
-Gallerie
-   </button>
+           Hover #1 
+            <div class="box-1">
+              <div class="btn btn-one">
+                <a href=""><span>Réservation</span></a>
+                  <a href=""><span>Gallerie</span></a>
+                    <a href=""><span>Contact</span></a>
+              </div>
+            </div>
+
+        
+  </div>
+
+-->
+
 
 
   </nav>
 
-  <form>
+ 
 
-    <input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
-    <input type="radio" name="fancy" value="hearts" id="hearts" />
-    <input type="radio" name="fancy" value="spades" id="spades" />
-    <input type="radio" name="fancy" value="diamonds" id="diamonds" />			
-    <label for="clubs"><img src="/medias/tahaatest1.jpg"></label>
-    <label for="hearts"><img src="/medias/tahaatest2.jpg"></label>
-    <label for="spades"><img src="/medias/tahaatest3.jpg"></label>
-    <label for="diamonds"><img src="/medias/tahaatest4.jpg"></label>
-
-    <div class="keys">Use left and right keys to navigate</div>
-</form>
+  
+  <section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+      <li id="carousel__slide1"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"><img src="/medias/tahaatest1.jpg">
+          <a href="#carousel__slide4"
+             class="carousel__prev">Go to last slide</a>
+          <a href="#carousel__slide2"
+             class="carousel__next">Go to next slide</a>
+        </div>
+      </li>
+      <li id="carousel__slide2"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"><img src="/medias/tahaatest2.jpg"></div>
+        <a href="#carousel__slide1"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide3"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"><img src="/medias/tahaatest3.jpg"></div>
+        <a href="#carousel__slide2"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide4"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide4"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"><img src="/medias/tahaatest4.jpg"></div>
+        <a href="#carousel__slide3"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide1"
+           class="carousel__next">Go to first slide</a>
+      </li>
+    </ol>
+    <aside class="carousel__navigation">
+      <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide1"
+             class="carousel__navigation-button"></a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide2"
+             class="carousel__navigation-button"></a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide3"
+             class="carousel__navigation-button"></a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide4"
+             class="carousel__navigation-button"></a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+</body>
+</html>
