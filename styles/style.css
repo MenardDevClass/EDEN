@@ -4,6 +4,75 @@ html{
     width: 100%;
 }
 
+h1{
+  color: #008bdb;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.screenline {
+  width: 85%;
+  background-color :#404040;
+  height: 4px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+
+}
+
+.prescontainer{
+  display: inline-block;
+  
+}
+
+.prescontainer img {
+  margin-top: 30px;
+  position: absolute;
+  max-width: 350px;
+  margin-left: 40px;
+  width: 30%;
+  height: auto;
+}
+
+.prescontainer h2,#prestext1{
+  position :absolute;
+  right: 0vh;
+  margin: 0;
+  width: 65%;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.prescontainer #prestext1{
+  margin-top: 5%;
+}
+#prestext2{
+  display: flex;
+  position: relative;
+  margin-top: 20%;
+  padding: 40px;
+}
+
+.tahaacontainer img{
+  position: relative;
+  left: 10%;
+  width: 80%;
+}
+
+.tahaacontainer p{
+  text-align: center;
+  margin: 20px;
+}
+
+.locationcont iframe{
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
 
 
 nav {
@@ -200,7 +269,7 @@ html {
   }
   
   .navbar .menu-items {
-    background-color: #404040;
+    background-color: #4040409f;
     padding-top: 120px; rgba(255, 255, 255, .5);
     height: 100vh;
     width: 100vh!important;
@@ -214,9 +283,20 @@ html {
   }
   
   .navbar .menu-items li {
+    color: white;
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
     font-weight: 500;
+  }
+
+  .navbar .menu-items .lititle, .fas fa-asterisk {
+    color: #008bdb;
+    font-size: 20px;
+  }
+
+  li i{
+
+    font-size: 10px;
   }
   
   .logo {
