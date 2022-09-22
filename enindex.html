@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/medias/LOGOV3.png">
+    <title>EDEN</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/carousel.css"/>
+    <link rel="stylesheet" href="/styles/button.scss"/>
+    <script src="https://kit.fontawesome.com/c908ae6a5b.js" crossorigin="anonymous"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/components/menu.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="desktop/EDEN/tablg.jpg"> 
+  </head>
+
+<body>
+
+  <nav>
+
+    <!--  SWITCH ANGLAIS FRANCAIS  -->
+      <div class="switch">
+          <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+          <label for="language-toggle"></label>
+          <span class="on">FR</span>
+          <span class="off">EN</span>
+        </div>
+     
+<!--SIDE MENU-->
+    <div class="navbar">
+      <div class="container nav-container">
+          <input class="checkbox" type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>  
+        <div class="logo">
+        </div>
+        <div class="menu-items">
+          <li class="lititle"><i class="fas fa-asterisk fa-lg"></i>TAHA'A</li>
+          <li><a href="pages/venirtahaa.html"><i class="fas fa-circle"></i>Venir à Taha'a</a></li>
+          <li><a href="/pages/histoire.html"><i class="fas fa-circle"></i>Histoire / Culture</a></li>
+          <li><a href="/pages/ilevanille.html"><i class="fas fa-circle"></i>Île Vanille</a></li>
+          <li class="lititle"><i class="fas fa-asterisk fa-lg"></i>L'HÔTEL</li>
+          <li><a href="/pages/villas.html"><i class="fas fa-circle"></i>Villas</a></li>
+          <li><a href="/pages/tarifs.html"><i class="fas fa-circle"></i>Tarifs</a></li>
+          <li><a href=":pages/célébrations.html"><i class="fas fa-circle"></i>Célébrations</a></li>
+          <li><a href="/pages/boutique.html"><i class="fas fa-circle"></i>Boutique</a></li>
+          <li><a href="/pages/activités.html"><i class="fas fa-circle"></i>Activités / Spa</a></li>
+        </div>
+      </div>
+    </div>
+  
+<!-- NAV LOGO -->
+   <a href=""> <img id="mainlogo" src="/medias/LOGOV3.png"> </a>
+   <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+
+    <!-- ONGLETS ACCUEIL RESA ETC -->
+   <a href="/pages/reserv.html"><div id="btn"><span class="noselect">Réservation</span><div id="circle"></div></div></a>
+
+   <a href="/pages/reserv.html"><div id="btn"><span class="noselect">Contact</span><div id="circle"></div></div></a>
+   
+   
+   
+
+   
+   <!--
+<div class="btn_container">
+
+           Hover #1 
+            <div class="box-1">
+              <div class="btn btn-one">
+                <a href=""><span>Réservation</span></a>
+                  <a href=""><span>Gallerie</span></a>
+                    <a href=""><span>Contact</span></a>
+              </div>
+            </div>
+
+        
+  </div>
+
+-->
+
+
+
+  </nav>
+
+          <!-- SOCIAL NETWORKS-->
+
+ <div class="socials">
+  <span><a href=""><i id="facebook" class="fab fa-facebook-f"></i></a></span>
+  <span><a href=""><i id="twitter" class="fab fa-twitter"></i></a></span>
+  <span><a href=""><i id="insta" class="fab fa-instagram"></i></a></span>
+  <span><a href=""><i id="youtube" class="fab fa-youtube"></i></a></span>
+  <span></span>
+ </div>
+  
+
+ <!-- CAROUSEL -->
+
+
+  <section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+      <li id="carousel__slide1"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"><img src="/medias/tahaatest1.jpg">
+          <a href="#carousel__slide4"
+             class="carousel__prev">Go to last slide</a>
+          <a href="#carousel__slide2"
+             class="carousel__next">Go to next slide</a>
+        </div>
+      </li>
+      <li id="carousel__slide2"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"><img src="/medias/tahaatest2.jpg"></div>
+        <a href="#carousel__slide1"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide3"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"><img src="/medias/tahaatest3.jpg"></div>
+        <a href="#carousel__slide2"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide4"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide4"
+          tabindex="0"
+          class="carousel__slide">
+        <div class="carousel__snapper"><img src="/medias/tahaatest4.jpg"></div>
+        <a href="#carousel__slide3"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide1"
+           class="carousel__next">Go to first slide</a>
+      </li>
+    </ol>
+    <aside class="carousel__navigation">
+      <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide1"
+             class="carousel__navigation-button"></a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide2"
+             class="carousel__navigation-button"></a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide3"
+             class="carousel__navigation-button"></a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide4"
+             class="carousel__navigation-button"></a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+
+
+  <div class="screenline"></div>
+<h1>EDEN</h1>
+
+<H3>présentation</H3>
+
+<div class="screenline"></div>
+
+<div class="prescontainer">
+  <img src="/medias/tahaatest1.jpg">
+  <h2 id="lemotu">le motu</h2>
+  <p id="prestext1">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit, purus nec lobortis commodo, ipsum sem vehicula metus, vel aliquam metus lorem nec lectus. Suspendisse iaculis tempor sapien, ut posuere tortor suscipit in. Pellentesque ullamcorper eleifend tortor non congue. Nunc quis neque eget dolor pulvinar bibendum. Vestibulum sit amet mi ut diam faucibus laoreet at in libero. Cras tellus augue, consequat sed odio ac, sagittis auctor orci. Nullam rutrum lacinia metus sit amet pellentesque. Aenean sollicitudin dapibus elit. Nulla nulla sem, placerat sed mauris vitae, bibendum pellentesque nulla. Suspendisse sit amet euismod dolor.
+  </p>
+  <p id="prestext2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit, purus nec lobortis commodo, ipsum sem vehicula metus, vel aliquam metus lorem nec lectus. Suspendisse iaculis tempor sapien, ut posuere tortor suscipit in. Pellentesque ullamcorper eleifend tortor non congue. Nunc quis neque eget dolor pulvinar bibendum. Vestibulum sit amet mi ut diam faucibus laoreet at in libero. Cras tellus augue, consequat sed odio ac, sagittis auctor orci. Nullam rutrum lacinia metus sit amet pellentesque. Aenean sollicitudin dapibus elit. Nulla nulla sem, placerat sed mauris vitae, bibendum pellentesque nulla. Suspendisse sit amet euismod dolor.</p>
+
+
+</div>
+
+<footer>
+  <img src="/medias/LOGOV3.png">
+  <div class="footercontainer">
+    <div class="footercolumn1">
+        <span>contactez-nous</span>
+        <span>téléphone</span>
+        <span>adresse</span>
+        <span>mail</span>
+    </div>
+    <div class="footercolumn2">
+        <span>téléphone</span>
+        <span>youtube</span>
+        <span>facebook</span>
+        <span>twitter</span>
+        <span>mentions légales</span>
+        <span>numéro d'entreprise?</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

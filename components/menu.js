@@ -7,3 +7,9 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+  function translate() {
+    if (document.getElementById("language-toggle").checked == true)
+    window.location.href = "/pages/enindex.html";
+    
+  }
