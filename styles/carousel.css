@@ -259,14 +259,14 @@
 }
 
 .btn-carrousel {
-    background-color: #fff;
+    background-color: #b9b8b8;
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
 }
 
 .btn-carrousel:hover {
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgb(255, 255, 255);
 }
 
 .fa-angle-left {
@@ -279,10 +279,10 @@
 
 .carrousel {
 	top: -90px;
-	left: 3%;
+	left: 2.5%;
     margin: 0 auto;
     height: 100%;
-	width: 94%;
+	width: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
