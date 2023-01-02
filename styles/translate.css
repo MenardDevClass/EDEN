@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+
+/************** translate ************************/
+
+
+     /*google translate Dropdown */
+ 
+     #google_translate_element select{
+        text-align: center;
+        background:#808080;
+        color:#404040;
+        border: none;
+        border-radius:25px;
+        padding:15px;
+        position:absolute;
+        z-index: 1;
+        right:1%;
+        top: 1%;
+        }
+        
+        /*google translate link | logo */
+          .goog-logo-link{
+          display:none!important;
+          }
+        .goog-te-gadget{
+        color:transparent!important;
+        }
+        
+        /* google translate banner-frame */
+        
+        .goog-te-banner-frame{
+        display:none !important;
+        }
+        
+        #goog-gt-tt, .goog-te-balloon-frame{display: none !important;}
+       .goog-text-highlight { background: none !important; box-shadow: none !important;}
+        
+        body{
+          top:-12px!important;
+        
+         
+        }
+
+
+
+
+/************** translate mobile ************************/
+@media (max-width: 509px) {
+  
+       /*google translate Dropdown */
+   
+       #google_translate_element select{
+        text-align: center;
+        background:#808080;
+        color:#404040;
+        border: none;
+        border-radius:25px;
+        padding:15px;
+        position:absolute;
+        z-index: 2;
+        height: 50px;
+        width: 150px;
+        top: 4%;
+        right: 70%;
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        }
+        
+        /*google translate link | logo */
+          .goog-logo-link{
+          display:none!important;
+          }
+        .goog-te-gadget{
+        color:transparent!important;
+        }
+        
+        /* google translate banner-frame */
+        
+        .goog-te-banner-frame{
+        display:none !important;
+        }
+        
+        #goog-gt-tt, .goog-te-balloon-frame{display: none !important;}
+       .goog-text-highlight { background: none !important; box-shadow: none !important;}
+        
+
+    }

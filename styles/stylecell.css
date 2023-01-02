@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+@media (max-width: 509px) {
+
+    .maintitle2{
+      position: absolute;
+      left: 15%;
+      top: 5.7rem;
+      color: #808080;
+      font-size : 11.5px;
+      z-index: 1;
+    }
+  
+    .maintitle {
+      position: absolute;
+      left: 20%;
+      top: 0.5rem;
+      color: #808080;
+      font-size:18px;
+      z-index: 1;
+    }
+  
+  
+    #mainlogo {
+      z-index: 2;
+      top: 6%;
+        height: 90px;
+        padding-bottom: 50px;
+        left: 1%;
+        position: absolute;
+        
+    }
+  /***************** TABS ********************/
+    #btn {
+      
+      float: right;
+      z-index: 1;
+      display: flex;
+      margin: 20px;
+      top: 0px;
+      background-color: #c9c9c9;
+      height: 50px;
+      width: 40px;
+      border: none;
+      border-radius: 10px;
+      color: #808080;
+      font-size: 15px;
+      font-family: "lato";
+      position: relative;
+      transition: 1s;
+      -webkit-tap-highlight-color: transparent;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      right: 0px;
+    }
+    
+    #btn #circle {
+      width: 5px;
+      height: 5px;
+      background: transparent;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      overflow: hidden;
+      transition: 500ms;
+    }
+    
+    .noselect {
+      -webkit-touch-callout: none;
+        -webkit-user-select: none;
+         -khtml-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    }
+    
+    #btn:hover {
+      background-color: #808080;
+      color: white;
+    }
+    
+    #btn:hover #circle {
+      left: 0;
+      height: 50px;
+      width: 100%;
+      border-radius: 0;
+      border-bottom: 2px solid white;
+    }
+  
+  
+      /************** translate ************************/
+  
+  
+       /*google translate Dropdown */
+   
+       #google_translate_element select{
+        text-align: center;
+        background:#808080;
+        color:#404040;
+        border: none;
+        border-radius:25px;
+        padding:15px;
+        position:absolute;
+        z-index: 2;
+        height: 50px;
+        width: 150px;
+        top: 12.5%;
+        right: 70%;
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        }
+        
+        /*google translate link | logo */
+          .goog-logo-link{
+          display:none!important;
+          }
+        .goog-te-gadget{
+        color:transparent!important;
+        }
+        
+        /* google translate banner-frame */
+        
+        .goog-te-banner-frame{
+        display:none !important;
+        }
+        
+        #goog-gt-tt, .goog-te-balloon-frame{display: none !important;}
+       .goog-text-highlight { background: none !important; box-shadow: none !important;}
+        
+        
+  
+        .maintitle {
+          position: absolute;
+          left: 15%;
+          top: 2.5rem;
+          color: #808080;
+          font-size:48px;
+          z-index: 1;
+        }
+  
+  
+        .socials{
+          background-color: #2874E2;
+          padding: px;
+          border-radius :25px;
+          top: 50%;
+          position: fixed;
+          z-index: 2;
+          text-align: center;
+          left: 9%;
+          display: flex;
+          flex-direction: column;
+          margin-right: 2%;
+          background : transparent;
+          font-size: 20px;
+        }
+  
+        #sidebarmenu{
+          color: #808080;
+          position: fixed;
+          -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      writing-mode: lr-tb;
+      top: 7%;
+      left: 5%;
+      font-size:20px;
+        }
+  
+  
+        .nav-container {
+          top: 0;
+          background-color: white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 62px;
+          width: 50px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+  
+  
+  
+  
+  
+  
+    
+    }
+    
