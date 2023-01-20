@@ -456,6 +456,25 @@ margin-bottom: 20px;
     margin-left: 44px;
   }
 
+
+
+
+
+  /*************************************/
+  /**************************************/
+  /******* CONTACT**********************/
+
+.contactform{
+  top: 50vh;
+  left: 25%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+
+
+
   /************** SIDE MENU ************/
 
 

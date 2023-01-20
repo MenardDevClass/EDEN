@@ -70,9 +70,8 @@
         </div>
         <div class="menu-items">
       <!--<li class="lititle"><i class="fas fa-asterisk fa-lg"></i>TAHA'A</li>-->
-      <li><a href="pages/prepare.html">Préparez votre voyage</a></li>
-      <li><a href="pages/private.html">Privatisez l'île</a></li>
-      <li><a href="/pages/ilevanille.html">Île Vanille</a></li>
+      <li><a href="/pages/prepare.html">Préparez votre voyage</a></li>
+      <li><a href="/pages/private.html">Privatisez l'île</a></li>
       <!--<li class="lititle"><i class="fas fa-asterisk fa-lg"></i>L'HÔTEL</li>-->
       <li><a href="/pages/villas.html">Villas</a></li>
       <li><a href="pages/prices.html">Tarifs</a></li>
@@ -160,25 +159,18 @@
 
 <div class="contactform">
   <form action="https://getform.io/f/5d8b37db-08fd-4d5a-9ea4-6d6aa6b833c1" method="POST">
-    <input type="text" name="name">
-    <input type="email" name="email">
-    <input type="text" name="message">
-    <!-- add hidden Honeypot input to prevent spams -->
-    <input type="hidden" name="_gotcha" style="display:none !important">
-    <!-- checkbox handle -->
-    <input type="checkbox" name="subscribe" value="yes" checked>
-    <input type="hidden" name="subscribe" value="no">
-    <!-- radio button handle -->
-    <input type="radio" name="gender" value="male" checked>
-    <input type="radio" name="gender" value="female">
-    <input type="radio" name="gender" value="other">
-    <!-- select field handle -->
-    <select name="work-experience">
-        <option value="one-year">0-1 years</option>
-        <option value="one-five-years">1-5 years</option>
-    </select>
-    <button type="submit">Send</button>
-  </form>
+  
+      <div class="left section">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <input type="tel" name="tel" placeholder="Your telephone number" required>
+      </div>
+      <div class="right section">
+        <textarea name="comment" placeholder="Your comment" required></textarea>
+      </div>
+      <button type="submit" class="sendForm left">Send</button>
+      <label for="showForm" class="closeFormLabel left">Cancel</label>
+    </form>
 </div>
 
 
