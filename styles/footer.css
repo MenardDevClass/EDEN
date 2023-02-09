@@ -22,7 +22,10 @@ footer{
 }
 
 
-
+#footerlogo {
+	max-width: 100px;
+	
+}
 
 /* Footer left */
 
@@ -36,6 +39,7 @@ footer{
 	color:  #ffffff;
 	font: normal 36px lato;
 	margin: 0 0 10px;
+	width: 5%;
 }
 
 .footer-distributed h3 span{

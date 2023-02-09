@@ -8,10 +8,16 @@
     <title>EDEN</title>
     <link rel="stylesheet" href="/styles/stylecell.css" media="(max-width: 510px)" />
     <link rel="stylesheet" href="/styles/style.css"  />
+    <link rel="stylesheet" href="/styles/footer.css"  />
+    <link rel="stylesheet" href="/styles/navbuttons.css"  />
+    <link rel="stylesheet" href="/styles/sidemenu.css"  />
+    <link rel="stylesheet" href="/styles/social.css"  />
+    <link rel="stylesheet" href="/styles/translate.css"  />
     <link rel="stylesheet" href="/styles/carousel.css" media="(min-width: 510px)"/>
     <link rel="stylesheet" href="/styles/button.scss"/>
     <script src="https://kit.fontawesome.com/c908ae6a5b.js" crossorigin="anonymous"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <script type="text/javascript" src="/components/menu.js"></script>
     <link
       rel="stylesheet"
@@ -27,22 +33,20 @@
   <nav>
 
 
-
-    <div id='google_translate_element'></div>
+    <div id="google_translate_element"></div>
     <script>
-      function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-      pageLanguage: 'en',
-      autoDisplay: 'true',
-      includedLanguages : 'en,fr',
-      layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-      }, 'google_translate_element');
-      }
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'fr'},
+                
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </div>
 
-  
-  
-      </script>
-      <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+ 
     <!--  SWITCH ANGLAIS FRANCAIS  
       <div class="switch">
           <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onclick="translate()">
@@ -65,14 +69,14 @@
         </div>
         <div class="menu-items">
       <!--<li class="lititle"><i class="fas fa-asterisk fa-lg"></i>TAHA'A</li>-->
-      <li><a href="pages/venirtahaa.html">Venir à Taha'a</a></li>
-      <li><a href="/pages/ilevanille.html">Île Vanille</a></li>
+      <li><a href="/pages/prepare.html">Préparez votre voyage</a></li>
+      <li><a href="/pages/private.html">Privatisez l'île</a></li>
       <!--<li class="lititle"><i class="fas fa-asterisk fa-lg"></i>L'HÔTEL</li>-->
       <li><a href="/pages/villas.html">Villas</a></li>
-      <li><a href="/pages/tarifs.html">Tarifs</a></li>
-      <li><a href=":pages/célébrations.html">Célébrations</a></li>
-      <li><a href="/pages/boutique.html">Boutique</a></li>
-      <li><a href="/pages/activités.html">Activités / Spa</a></li>
+      <li><a href="/pages/celebrations.html">Célébrations</a></li>
+      <li><a href="/pages/shop.html">Boutique</a></li>
+      <li><a href="/pages/activities.html">Activités / Spa</a></li>
+      <li><a href="/pages/gallery.html">Gallerie</a></li>
         </div>
       </div>
     </div>
@@ -83,11 +87,25 @@
 
 
     <!-- ONGLETS ACCUEIL RESA ETC -->
-     <a href="/pages/reserv.html"><div id="btn"><span class="noselect">Contact</span><div id="circle"></div></div></a>
- 
-     <a href="/pages/reserv.html"><div id="btn"><span class="noselect">Réservation</span><div id="circle"></div></div></a>
-     
-  
+    <div class="wrapper1">
+      <div class="link_wrapper">
+        <a href="/pages/contact.html"><i class="fa-duotone fa-calendar-days"></i>contact</a>
+        <div class="icon">
+          <i class="fas fa-phone"></i> 
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="wrapper2">
+      <div class="link_wrapper">
+        <a href="#"><i class="fa-duotone fa-calendar-days"></i>Réservations</a>
+        <div class="icon">
+          <i class="fas fa-calendar"></i> 
+        </div>
+      </div>
+      
+    </div>
    
    
 
@@ -116,13 +134,27 @@
           <!-- SOCIAL NETWORKS-->
   <h2 class="maintitle">EDEN</h2>
   <h2 class="maintitle2">PRIVATE ISLAND TAHA'A </h2>
- <div class="socials">
-  <span><a href="https://www.instagram.com/edentahaa/"><i id="insta" class="fab fa-instagram"></i></a></span>
-  <span><a href="https://www.facebook.com/profile.php?id=100086537421464"><i id="facebook" class="fab fa-facebook-f"></i></a></span>
-  <span><a href=""><i id="twitter" class="fab fa-twitter"></i></a></span>
-  <span><a href=""><i id="youtube" class="fab fa-youtube"></i></a></span>
-  <span></span>
- </div>
+  <section>
+    <ul class="icon-list">
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-tiktok"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-twitter"></i></a>
+      </li>    
+      
+    </ul>
+  </section>
+
   
 
  <!-- CAROUSEL -->
@@ -135,37 +167,7 @@
 <script src="./index.js"></script>
 
 
- <!-- <div class="screenline"></div>-->
- <div >
-  <img class="titlelogo" src="/medias/Topleft_grey.png">
-<h1>EDEN</h1>
-</div>
-<!--
-<div class="screenline"></div> -->
 
-<div class="prescontainer">
-  <h2 id="lemotu">Maeva, Manava</h2>
-  <p id="prestext1">
-    A l'abri des regards et loin des grandes structures hôtelières classiques, choisissez notre motu au large de Tahaa. Un nouveau paradis vous attend avec ses 5 villas plage pour un séjour authentique et exclusif !
-
-Vivez une expérience unique
-L'hôtel se situe sur un motu (petit îlot) privé et en bordure de la barrière récifale, entouré des eaux limpides et turquoise du lagon.
-
-Sa superficie (5500 m2) et son isolement vous garantissent le charme et la quiétude d'un séjour au plus près de la nature. 
-
-
-
-Nous proposons un service de transfert depuis/vers Raiatea (30min) et Tahaa (7 min)
-
-Nous vous offrons un service personnalisé et confidentiel afin que votre séjour reste inoubliable. 
-
-
-
-4 suites villas  et une suite villa plage famille pour 4 personnes de 105 m2 avec terrasse et accès direct au lagon  sont à votre disposition pour une robinsonnade de luxe.
- </p>
-
-</div>
-</div>
 
 
 <!--
@@ -226,11 +228,53 @@ Nous vous offrons un service personnalisé et confidentiel afin que votre séjou
   </div>
 </div>
 
-<footer>
-  <span>| © EDEN TAHA'A ÎLE PRIVÉE Tous droits réservés. |</span>
-  <span>| Police de confidentialité. |</span>
-  <span>| Conditions d'utilisation. |</span>
-  <a href="/pages/reserv.html"><span>| Contact. |</span></a>
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+
+    <h3><span><img id="footerlogo" src="\medias\topleft_grey.png"></span></h3>
+
+    <p class="footer-links">
+      <a href="#">Home</a>
+      ·
+      <a href="#">Pricing</a>
+      ·
+      <a href="#">About</a>
+      ·
+      <a href="#">Faq</a>
+      ·
+      <a href="#">Contact</a>
+    </p>
+
+    <p class="footer-company-name">EDEN - TAHA'A</p>
+
+    <div class="footer-icons">
+
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+
+    </div>
+
+
+  </div>
+
+  <div class="footer-right">
+
+    <p>Contact Us</p>
+
+    <form action="#" method="post">
+
+      <input type="text" name="email" placeholder="Email">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button>Send</button>
+
+    </form>
+
+  </div>
+
 </footer>
 
 </body>

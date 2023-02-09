@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/styles/stylecell.css" media="(max-width: 510px)" />
     <link rel="stylesheet" href="/styles/style.css"  />
     <link rel="stylesheet" href="/styles/footer.css"  />
+    <link rel="stylesheet" href="/styles/contact.css"  />
     <link rel="stylesheet" href="/styles/navbuttons.css"  />
     <link rel="stylesheet" href="/styles/sidemenu.css"  />
     <link rel="stylesheet" href="/styles/social.css"  />
@@ -157,6 +158,27 @@
     </ul>
   </section>
 
+  <div class="formio">
+    <form action="https://getform.io/f/aa85818b-e817-4998-b435-6aa69141437e" method="POST">
+        <h2>Entrez votre nom complet</h2>
+        <input type="text" name="name" placeholder="Nom">
+        <h2>Entrez votre adresse E-mail</h2>
+        <input type="email" name="email" placeholder="E-mail">
+        <h2>Entrez votre numéro de téléphone</h2>
+        <input type="Phone number" name="Phone number" placeholder="Numéro de téléphone">
+        <h2>Quand pouvons-nous vous contacter?</h2>
+        <input type="text" name="contact time" placeholder="Quand pouvons-nous vous contacter?">
+        <h2>Comment pouvons-nous vous aider?</h2>
+        <textarea id="formtext" type="text" name="message" placeholder="Comment pouvons-nous vous aider?"></textarea>
+        <!-- add hidden Honeypot input to prevent spams -->
+        <input type="hidden" name="_gotcha" style="display:none !important">
+        <!-- checkbox handle -->
+      
+        <button type="submit">Send</button>
+    </form>
+    </div>
+
+<!-- 
 <div class="contactform">
   <form action="https://getform.io/f/5d8b37db-08fd-4d5a-9ea4-6d6aa6b833c1" method="POST">
   
@@ -171,7 +193,7 @@
       <button type="submit" class="sendForm left">Send</button>
       <label for="showForm" class="closeFormLabel left">Cancel</label>
     </form>
-</div>
+</div> -->
 
 
 
@@ -180,7 +202,7 @@
 
     <div class="footer-left">
   
-      <h3>EDEN<span>TAHA'</span></h3>
+      <h3><span><img id="footerlogo" src="\medias\topleft_grey.png"></span></h3>
   
       <p class="footer-links">
         <a href="#">Home</a>
