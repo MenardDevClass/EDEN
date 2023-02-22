@@ -1,4 +1,10 @@
+
+.formio{
+    position: relative;
+}
+
 .formio form{
+    
     top: 20vh;
     padding: 25px;
     position: relative;

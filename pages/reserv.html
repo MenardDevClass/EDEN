@@ -1,31 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/medias/LOGOV3.png">
+    <link rel="icon" href="medias\LOGOV3.png">
     <title>EDEN</title>
-    <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="/styles/carousel.css"/>
-    <link rel="stylesheet" href="/styles/reserv.css"/>
+    <link rel="stylesheet" href="\styles\stylecell.css" media="(max-width: 510px)" />
+    <link rel="stylesheet" href="\styles\style.css"  />
+    <link rel="stylesheet" href="\styles\footer.css"  />
+    <link rel="stylesheet" href="\styles\navbuttons.css"  />
+    <link rel="stylesheet" href="\styles\sidemenu.css"  />
+    <link rel="stylesheet" href="\styles\social.css"  />
+    <link rel="stylesheet" href="\styles\translate.css"  />
+    <link rel="stylesheet" href="\styles\carousel.css" media="(min-width: 510px)"/>
+    <link rel="stylesheet" href="\styles\button.scss"/>
     <script src="https://kit.fontawesome.com/c908ae6a5b.js" crossorigin="anonymous"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="/components/menu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script type="text/javascript" src="components/menu.js"></script>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link rel="icon" href="desktop/EDEN/tablg.jpg"> 
+    <link rel="icon" href="\medias\Hex bleu eden logo.png"> 
   </head>
-<body>
 
 
 
   <nav>
 
+
+    <div id="google_translate_element"></div>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'fr'},
+                
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </div>
+
+ 
+    <!--  SWITCH ANGLAIS FRANCAIS  
+      <div class="switch">
+          <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" onclick="translate()">
+          <label for="language-toggle"></label>
+          <span class="on">FR</span>
+          <span class="off">EN</span>
+        </div> -->
+     
+<!--SIDE MENU-->
     <div class="navbar">
       <div class="container nav-container">
           <input class="checkbox" type="checkbox" name="" id="" />
@@ -34,46 +64,48 @@
             <span class="line line2"></span>
             <span class="line line3"></span>
           </div>  
+          <h2 id="sidebarmenu">MENU</h2>
         <div class="logo">
         </div>
         <div class="menu-items">
-            <li translate="no" class="lititle"><i class="fas fa-asterisk fa-lg"></i>TAHA'A</li>
-          <li><a href="/pages/venirtahaa.html">Venir à Taha'a</a></li>
-          <li><a href="/pages/histoire.html">Histoire / Culture</a></li>
-          <li><a href="/pages/ilevanille.html">Île Vanille</a></li>
-          <li class="lititle"><i class="fas fa-asterisk fa-lg"></i>L'HÔTEL</li>
-          <li><a href="/pages/villas.html">Villas</a></li>
-          <li><a href="/pages/tarifs.html">Tarifs</a></li>
-          <li><a href=":pages/célébrations.html">Célébrations</a></li>
-          <li><a href="/pages/boutique.html">Boutique</a></li>
-          <li><a href="/pages/activités.html">Activités / Spa</a></li>
+      <!--<li class="lititle"><i class="fas fa-asterisk fa-lg"></i>TAHA'A</li>-->
+      <li><a href="pages/prepare.html">Préparez votre voyage</a></li>
+      <li><a href="pages/private.html">Privatisez l'île</a></li>
+      <!--<li class="lititle"><i class="fas fa-asterisk fa-lg"></i>L'HÔTEL</li>-->
+      <li><a href="pages/villas.html">Villas</a></li>
+      <li><a href="pages/celebrations.html">Célébrations</a></li>
+      <li><a href="pages/shop.html">Boutique</a></li>
+      <li><a href="pages/activities.html">Activités / Spa</a></li>
+      <li><a href="pages/gallery.html">Gallerie</a></li>
         </div>
       </div>
     </div>
   
-
-   <a href="/index.html"> <img id="mainlogo" src="/medias/Topleft_grey.png"> </a>
+<!-- NAV LOGO -->
+   
    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
 
-   <div id='google_translate_element'></div>
-   <script>
-     function googleTranslateElementInit() {
-     new google.translate.TranslateElement({
-     pageLanguage: 'fr',
-     autoDisplay: 'true',
-     includedLanguages : 'en,fr',
-     layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-     }, 'google_translate_element');
-     }
 
- 
- 
-     </script>
-     <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
-  
-   <div id="btn"><span class="noselect">Gallerie</span><div id="circle"></div></div>
-   <a href="/index.html"><div id="btn"><span class="noselect">Accueil</span><div id="circle"></div></div></a>
-   
+    <!-- ONGLETS ACCUEIL RESA ETC -->
+    <div class="wrapper1">
+      <div class="link_wrapper">
+        <a href="pages/contact.html"><i class="fa-duotone fa-calendar-days"></i>contact</a>
+        <div class="icon">
+          <i class="fas fa-phone"></i> 
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="wrapper2">
+      <div class="link_wrapper">
+        <a href="\index.html"><i class="fa-duotone fa-calendar-days"></i>Accueil</a>
+        <div class="icon">
+          <i class="fas fa-home"></i> 
+        </div>
+      </div>
+      
+    </div>
    
    
 
@@ -98,65 +130,93 @@
 
 
   </nav>
+  <a href="/index.html"> <img id="mainlogo" src="/medias/Topleft_grey.png"> </a>
+          <!-- SOCIAL NETWORKS-->
+  <h2 class="maintitle">EDEN</h2>
+  <h2 class="maintitle2">PRIVATE ISLAND TAHA'A </h2>
+  <section>
+    <ul class="icon-list">
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-tiktok"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="#" class="icon-link"><i class="fab fa-twitter"></i></a>
+      </li>    
+      
+    </ul>
+  </section>
 
-  <div class="socials">
-    <span><a href=""><i id="facebook" class="fab fa-facebook-f"></i></a></span>
-    <span><a href=""><i id="twitter" class="fab fa-twitter"></i></a></span>
-    <span><a href=""><i id="insta" class="fab fa-instagram"></i></a></span>
-    <span><a href=""><i id="youtube" class="fab fa-youtube"></i></a></span>
-    <span></span>
-   </div>
-
-
-   <div class="center">
-    <div class="property-card">
-      <a href="#">
-        <div class="property-image">
-          <div class="property-image-title">
-            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-          </div>
-        </div></a>
-      <div class="property-description">
-        <h5> VILLAS </h5>
-        <p>Villa avec couché de soleil vue bora bora.</p>
-      </div>
-      <a href="#">
-        
-          <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-        </div>
-      </a>
-    </div>
-  </div>
-  <div class="titleblockvilla">
-    <img class="titlelogo2" src="/medias/Topleft_grey.png">
-  <h1>EDEN</h1>
-  </div>
   
-  <div class="center2">
-    <div class="property-card2">
-      <a href="#">
-        <div class="property-image2">
-          <div class="property-image-title2">
-            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-          </div>
-        </div></a>
-      <div class="property-description2">
-        <h5> VILLAS FAMILIALES</h5>
-        <p>Villa familiale avec levé de soleil vue Huahine</p>
-      </div>
-      <a href="#">
-          <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-        </div>
-      </a>
+
+ 
+
+  <iframe class="amenitizresa" style="border:1px #FFFFFF none" src="https://la-pirogue-api.amenitiz.io/fr/booking/room" title="iFrame" width="80%" height="1200px" scrolling="no" frameborder="no" allow="fullscreen"></iframe>
+
+
+
+
+
+
+
+
+
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+
+    <h3><span><img id="footerlogo" src="\medias\topleft_grey.png"></span></h3>
+
+    <p class="footer-links">
+      <a href="#">Home</a>
+      ·
+      <a href="#">Pricing</a>
+      ·
+      <a href="#">About</a>
+      ·
+      <a href="#">Faq</a>
+      ·
+      <a href="#">Contact</a>
+    </p>
+
+    <p class="footer-company-name">EDEN - TAHA'A</p>
+
+    <div class="footer-icons">
+
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+
     </div>
+
+
   </div>
-  
-  <footer>
-    <span>| © EDEN TAHA'A ÎLE PRIVÉE Tous droits réservés. |</span>
-    <span>| Police de confidentialité. |</span>
-    <span>| Conditions d'utilisation. |</span>
-    <a href="/pages/reserv.html"><span>| Contact. |</span></a>
-  </footer>
+
+  <div class="footer-right">
+
+    <p>Contact Us</p>
+
+    <form action="#" method="post">
+
+      <input type="text" name="email" placeholder="Email">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button>Send</button>
+
+    </form>
+
+  </div>
+
+</footer>
 
 </body>
 </html>
