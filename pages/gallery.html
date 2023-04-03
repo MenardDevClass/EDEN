@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/style.css"  />
     <link rel="stylesheet" href="/styles/footer.css"  />
     <link rel="stylesheet" href="/styles/navbuttons.css"  />
+    <link rel="stylesheet" href="/styles/gallery.css"  />
     <link rel="stylesheet" href="/styles/sidemenu.css"  />
     <link rel="stylesheet" href="/styles/social.css"  />
     <link rel="stylesheet" href="/styles/translate.css"  />
@@ -32,7 +33,7 @@
 
 
   <nav>
-
+<!--
 
     <div id="google_translate_element"></div>
     <script>
@@ -45,7 +46,7 @@
         }
     </script>
     <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  </div>
+  </div> -->
 
  
     <!--  SWITCH ANGLAIS FRANCAIS  
@@ -70,15 +71,13 @@
         </div>
         <div class="menu-items">
       <!--<li class="lititle"><i class="fas fa-asterisk fa-lg"></i>TAHA'A</li>-->
-      <li><a href="pages/prepare.html">Préparez votre voyage</a></li>
-      <li><a href="pages/private.html">Privatisez l'île</a></li>
+      <li><a href="/pages/prepare.html">Préparez votre voyage</a></li>
+      <li><a href="/pages/private.html">Privatisez l'île</a></li>
       <!--<li class="lititle"><i class="fas fa-asterisk fa-lg"></i>L'HÔTEL</li>-->
-      <li><a href="pages/villas.html">Villas</a></li>
-      <li><a href="pages/prices.html">Tarifs</a></li>
-      <li><a href="pages/celebrations.html">Célébrations</a></li>
-      <li><a href="pages/shop.html">Boutique</a></li>
-      <li><a href="pages/activities.html">Activités / Spa</a></li>
-      <li><a href="pages/gallery.html">Gallerie</a></li>
+      <li><a href="/pages/villas.html">Villas</a></li>
+      <li><a href="/pages/celebrations.html">Célébrations</a></li>
+      <li><a href="/pages/activities.html">Activités / Spa</a></li>
+      <li><a href="/pages/gallery.html">Gallerie</a></li>
         </div>
       </div>
     </div>
@@ -91,7 +90,7 @@
     <!-- ONGLETS ACCUEIL RESA ETC -->
     <div class="wrapper1">
       <div class="link_wrapper">
-        <a href="#"><i class="fa-duotone fa-calendar-days"></i>contact</a>
+        <a href="/pages/contact.html"><i class="fa-duotone fa-calendar-days"></i>contact</a>
         <div class="icon">
           <i class="fas fa-phone"></i> 
         </div>
@@ -101,15 +100,17 @@
 
     <div class="wrapper2">
       <div class="link_wrapper">
-        <a href="#"><i class="fa-duotone fa-calendar-days"></i>Réservations</a>
+        <a href="/pages/reserv.html"><i class="fa-duotone fa-calendar-days"></i>Réservations</a>
         <div class="icon">
           <i class="fas fa-calendar"></i> 
         </div>
       </div>
       
     </div>
-   
-   
+
+    <a href="/pages/reserv.html" class="responsivecalendar"><i class="fas fa-calendar"></i></a>
+    <a href="/pages/contact.html" class="responsivephone"><i class="fas fa-phone"></i> </a>
+
 
    
    <!--
@@ -139,20 +140,20 @@
   <section>
     <ul class="icon-list">
       <li class="icon-item">
-        <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/edentahaa/" class="icon-link"><i class="fab fa-instagram"></i></a>
       </li>
       <li class="icon-item">
-        <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100086537421464" class="icon-link"><i class="fab fa-facebook-f"></i></a>
       </li>
       <li class="icon-item">
-        <a href="#" class="icon-link"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.tiktok.com/@edentahaa" class="icon-link"><i class="fab fa-tiktok"></i></a>
       </li>
       <li class="icon-item">
-        <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.youtube.com/@edentahaa" class="icon-link"><i class="fab fa-youtube"></i></a>
       </li>
       <li class="icon-item">
         <a href="#" class="icon-link"><i class="fab fa-twitter"></i></a>
-      </li> 
+      </li>
       
     </ul>
   </section>
@@ -179,30 +180,7 @@
 
 
 
-  </nav>
-  <a href="/index.html"> <img id="mainlogo" src="/medias/Topleft_grey.png"> </a>
-          <!-- SOCIAL NETWORKS-->
-  <h2 class="maintitle">EDEN</h2>
-  <h2 class="maintitle2">PRIVATE ISLAND TAHA'A </h2>
-  <section>
-    <ul class="icon-list">
-      <li class="icon-item">
-        <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
-      </li>
-      <li class="icon-item">
-        <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
-      </li>
-      <li class="icon-item">
-        <a href="#" class="icon-link"><i class="fab fa-tiktok"></i></a>
-      </li>
-      <li class="icon-item">
-        <a href="#" class="icon-link"><i class="fab fa-youtube"></i></a>
-      </li>
-      <li class="icon-item">
-        <a href="#" class="icon-link"><i class="fab fa-twitter"></i></a>
-      </li>    
-    </ul>
-  </section>
+
   
 
 <div class="galleryblock">
@@ -280,7 +258,7 @@
 
   <div class="footer-left">
 
-    <h3><span><img id="footerlogo" src="/medias/topleft_grey.png"></span></h3>
+    <h3><span><img id="footerlogo" src="/medias/Topleft_grey.png"></span></h3>
 
     <p class="footer-links">
       <a href="#">Home</a>
@@ -296,15 +274,7 @@
 
     <p class="footer-company-name">EDEN - TAHA'A</p>
 
-    <div class="footer-icons">
-
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-tiktok"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-
-    </div>
+ 
 
 
   </div>

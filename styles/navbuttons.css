@@ -1,5 +1,13 @@
 /************* TABS ***********/
+@media only screen and (max-width: 1920px) {
 
+  .responsivecalendar{
+    display: none;
+  }
+
+  .responsivephone{
+    display: none;
+  }
 
 .wrapper1{
     top: 5%;
@@ -25,7 +33,7 @@
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border: 3px solid #333;
+    border: 3px ²lid #333;
     transition: all .35s;
   }
   
@@ -143,4 +151,75 @@
     position: absolute;
    top: 30%;
    left: 35%;
+  }
+}
+
+
+  @media only screen and (max-width: 509px) {
+
+    .wrapper1{
+      position: absolute;
+      left: 30vh;
+      display: none;
+    }
+
+    .wrapper2{
+      position: absolute;
+      left: 26.69vh;
+      top: 10vh;
+      display: none;
+    }
+  
+
+    .responsivecalendar {
+      z-index: 1;
+      position: absolute;
+      right: 1vh;
+      box-shadow: 0px 10px 14px -7px #276873;
+      background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+      background-color:#599bb3;
+      border-radius:8px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:20px;
+      font-weight:bold;
+      padding:13px 32px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #3d768a;
+    }
+    .responsivecalendar:hover {
+      background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+      background-color:#408c99;
+    }
+   
+    
+
+    .responsivephone{
+      z-index: 1;
+      right: 1vh;
+      top: 9vh;
+      position: absolute;
+      box-shadow: 0px 10px 14px -7px #276873;
+      background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+      background-color:#599bb3;
+      border-radius:8px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:20px;
+      font-weight:bold;
+      padding:13px 31px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #3d768a;
+    }
+    .responsivephone:hover {
+      background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+      background-color:#408c99;
+    }
+    
+    
+            
   }

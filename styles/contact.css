@@ -1,80 +1,177 @@
 
-.formio{
-    position: relative;
+@media only screen and (max-width: 1920px) {
+
+        .formio{
+            position: relative;
+        }
+
+        .formio form{
+            
+            top: 20vh;
+            padding: 25px;
+            position: relative;
+            text-align: center;
+            margin: 0 auto ;
+            margin-bottom: 50px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            height: 100%;
+            width: 70vh;
+            border-radius: 20px 20px 20px 20px;
+        }
+
+        .formio input{
+            width: 80%;
+            border-color: transparent;
+            color: #808080;
+            background-color: #808080;
+            top: 10%;
+            padding: 20px;
+            margin: 5% auto;
+            font-size: 1.5rem;
+            border-radius: 15px;
+            flex-direction: column;
+            display: flex;
+            position: relative;
+        }
+
+        #formtext{
+            height: 40%;
+            overflow: auto;
+            cursor: pointer;
+            width: 80%;
+            border-color: transparent;
+            color: #404040;
+            background-color: #808080;
+            top: 10%;
+            padding: 20px;
+            margin: 5% auto;
+            font-size: 1.5rem;
+            border-radius: 15px;
+            flex-direction: column;
+            display: flex;
+            position: relative;
+        }
+
+        #formtext::placeholder{
+            color: #404040;
+        }
+
+        .formio input::placeholder{
+            color: #404040;
+        }
+
+        .formio input, select, textarea{
+            color: #404040;
+        }
+
+
+        .formio button{
+            text-align: center;
+            margin: 100px auto;
+            position: relative;
+            bottom: 0px;
+            padding: 25px;
+            width: 120px;
+            border-radius: 20px;
+            border-color: transparent;
+            cursor: pointer;
+        }
+
+        .formio h2{
+            color: #808080;
+        }
+
 }
 
-.formio form{
+
+@media only screen and (max-width: 509px) {
+
+        .formio{
+            position: relative;
+        }
+        
+        .formio form{
+            
+            top: 20vh;
+            padding: 25px;
+            position: relative;
+            text-align: center;
+            margin: 0 auto ;
+            margin-bottom: 50px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            height: 100%;
+            width: 90%;
+            border-radius: 20px 20px 20px 20px;
+        }
+        
+        .formio input{
+            left: 5vh;
+            width: 70%;
+            border-color: transparent;
+            color: #808080;
+            background-color: #808080;
+            top: 10%;
+            padding: 20px;
+            margin: 5% auto;
+            font-size: 1.5rem;
+            border-radius: 15px;
+            flex-direction: column;
+            display: flex;
+            position: relative;
+        }
+        .formio textarea {
+            left: 5vh;
+            max-width: 70%;
+        }
+        
+        #formtext{
+            height: 40%;
+            overflow: auto;
+            cursor: pointer;
+            width: 80%;
+            border-color: transparent;
+            color: #404040;
+            background-color: #808080;
+            top: 10%;
+            padding: 20px;
+            margin: 5% auto;
+            font-size: 1.5rem;
+            border-radius: 15px;
+            flex-direction: column;
+            display: flex;
+            position: relative;
+        }
+        
+        #formtext::placeholder{
+            color: #404040;
+        }
+        
+        .formio input::placeholder{
+            color: #404040;
+        }
+        
+        .formio input, select, textarea{
+            color: #404040;
+        }
+        
+        
+        .formio button{
+            text-align: center;
+            margin: 100px auto;
+            position: relative;
+            bottom: 0px;
+            padding: 25px;
+            width: 120px;
+            border-radius: 20px;
+            border-color: transparent;
+            cursor: pointer;
+        }
+        
+        .formio h2{
+            color: #808080;
+            text-align: right;
+        }
+        
+        }
+        
     
-    top: 20vh;
-    padding: 25px;
-    position: relative;
-    text-align: center;
-    margin: 0 auto ;
-    margin-bottom: 50px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    height: 100%;
-    width: 70vh;
-    border-radius: 20px 20px 20px 20px;
-}
-
-.formio input{
-    width: 80%;
-    border-color: transparent;
-    color: #808080;
-    background-color: #808080;
-    top: 10%;
-    padding: 20px;
-    margin: 5% auto;
-    font-size: 1.5rem;
-    border-radius: 15px;
-    flex-direction: column;
-    display: flex;
-    position: relative;
-}
-
-#formtext{
-    height: 40%;
-    overflow: auto;
-    cursor: pointer;
-    width: 80%;
-    border-color: transparent;
-    color: #404040;
-    background-color: #808080;
-    top: 10%;
-    padding: 20px;
-    margin: 5% auto;
-    font-size: 1.5rem;
-    border-radius: 15px;
-    flex-direction: column;
-    display: flex;
-    position: relative;
-}
-
-#formtext::placeholder{
-    color: #404040;
-}
-
-.formio input::placeholder{
-    color: #404040;
-}
-
-.formio input, select, textarea{
-    color: #404040;
-}
-
-
-.formio button{
-    text-align: center;
-    margin: 100px auto;
-    position: relative;
-    bottom: 0px;
-    padding: 25px;
-    width: 120px;
-    border-radius: 20px;
-    border-color: transparent;
-    cursor: pointer;
-}
-
-.formio h2{
-    color: #808080;
-}

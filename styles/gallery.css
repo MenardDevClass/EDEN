@@ -1,0 +1,121 @@
+/********* gallerie **********************/
+
+
+@media only screen and (max-width: 1920px) {
+
+
+.galleryblock{
+    padding: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    flex-direction: column;
+    width: 85%;
+    height: 85vh;
+    text-align: center;
+    margin: 0 auto;
+    top: 15vh;
+    left: 5vh;
+    overflow-y: scroll;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius:25px 0 0 25px;
+  }
+  
+  .galleryblock::-webkit-scrollbar-track {
+    border: 1px solid #000;
+    border-radius:50px;
+    padding: 2px 0;
+    background-color: #404040;
+  }
+  
+  .galleryblock::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 50px;
+  }
+  
+  .galleryblock::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #737272;
+    border: 1px solid #000;
+  }
+  
+  .galleryblock img{
+    transition: transform .1s;
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+    height: 30%;
+    margin: 30px;
+  }
+  .galleryblock img:hover{
+    -ms-transform: scale(1.8); /* IE 9 */
+    -webkit-transform: scale(1.8); /* Safari 3-8 */
+    transform: scale(1.8);
+    }
+  
+}
+
+
+@media only screen and (max-width: 509px) {
+
+ 
+
+
+    .galleryblock{
+        margin: 0;
+        padding: 0;
+        left: 0vh;
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 85vh;
+      top: 20vh;
+      overflow-y: scroll;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius:25px 0 0 25px;
+    }
+
+    .galleryblock img {
+        position: relative;
+        text-align: center;
+        margin: auto;
+        left: 10vh;
+        min-width: 200px;
+
+
+    }
+    
+    .galleryblock::-webkit-scrollbar-track {
+      border: 1px solid #000;
+      border-radius:50px;
+      padding: 2px 0;
+      background-color: #404040;
+    }
+    
+    .galleryblock::-webkit-scrollbar {
+      width: 10px;
+      border-radius: 50px;
+    }
+    
+    .galleryblock::-webkit-scrollbar-thumb {
+      border-radius: 50px;
+      box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #737272;
+      border: 1px solid #000;
+    }
+    
+    .galleryblock img{
+      transition: transform .1s;
+      text-align: center;
+      margin: 0 auto;
+      width: 25%;
+      height: 30%;
+      margin: 30px;
+    }
+    .galleryblock img:hover{
+      -ms-transform: scale(1.8); /* IE 9 */
+      -webkit-transform: scale(1.8); /* Safari 3-8 */
+      transform: scale(1.8);
+      }
+    
+}    

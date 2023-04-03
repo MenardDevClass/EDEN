@@ -215,3 +215,10 @@ footer{
 		float: none;
 	}
 }
+@media only screen and (max-width: 509px) {
+
+	.footer-distributed{
+		left: 0vh;
+		width: 100%;
+	}
+}
