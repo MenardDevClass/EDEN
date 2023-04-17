@@ -4,6 +4,7 @@
 
 
 .socials{
+  z-index: 2;
     background-color: #2874E2;
     padding: px;
     border-radius :25px;
@@ -60,15 +61,8 @@
     color: #FF0000;
   }
 
-  #tiktok{
-    padding-bottom: 20px;
-    color: #808080;
-    transition: color 0.8s;
-  }
 
-  #tiktok:hover{
-    color: #36a3e7c7;
-  }
+
 
 /**************************************************************/
 
@@ -78,7 +72,6 @@
     --social-icon1: #e4405f;
     --social-icon2: #3b5999;
     --social-icon3: #e4405f;
-    --social-icon4: #cd201f;
     --social-icon5: #0077B5;   
   }
   
@@ -167,9 +160,7 @@
     background: var(--social-icon3); 
   }
   
-  .icon-item:nth-child(4) a:hover:before { 
-    background: var(--social-icon4); 
-  }
+ 
   
   .icon-item:nth-child(5) a:hover:before { 
     background: var(--social-icon5); 
@@ -256,7 +247,6 @@
       --social-icon1: #e4405f;
       --social-icon2: #3b5999;
       --social-icon3: #e4405f;
-      --social-icon4: #cd201f;
       --social-icon5: #0077B5;   
     }
     
@@ -350,9 +340,7 @@
       background: var(--social-icon3); 
     }
     
-    .icon-item:nth-child(4) a:hover:before { 
-      background: var(--social-icon4); 
-    }
+    
     
     .icon-item:nth-child(5) a:hover:before { 
       background: var(--social-icon5); 

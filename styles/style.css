@@ -8,12 +8,18 @@
     html{
         height: 100%;
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
         font-family: "lato";
         background-image: url('/medias/backgroundtest2.jpg') ; 
         background-position: center;
       background-size: cover;
       background-attachment: fixed;
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      margin: 0 auto;
     }
 
     p {
@@ -43,21 +49,20 @@
     }
 
     .titlelogo {
-      position: relative;
       text-align: center;
       margin-bottom: -20px;
       height: 50px;
       left: 50.5%;
     }
-    /**
+    
     .titlelogo2{
+      margin: auto;
       position: relative;
       text-align: center;
-      margin-bottom: -20px;
-      height: 50px;
-      left: 50.5%;
+      width: 50px;
+      padding-bottom:40px;
     }
-    **/
+   
     .inlinelogo{
       position: relative;
       background-image: url('/medias/679a056e-449f-43bd-a45e-f13a5f997a86.jpg');
@@ -119,6 +124,7 @@
     .prescontainer h2{
       font-size: 30px;
       color: #dddada;
+      text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
     }
     .prescontainer h2,#prestext1{
       position: relative;
@@ -136,6 +142,7 @@
       color: #dddada;
       margin-top: 8%;
       font-size: 25px;
+      text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
     }
     #prestext2{
       display: flex;
@@ -260,10 +267,11 @@
       z-index: 1;
     }
     #mainlogo {
+      top: 5vh;
       z-index: 2;
         height: 90px;
         padding-bottom: 50px;
-        left: 9%;
+        left: 18vh;
         position: absolute;
         
     }
@@ -719,7 +727,7 @@
       -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
       -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
       transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-      background-image:url('/medias/P1060803.JPG');
+      background-image:url('/medias/card1.jpg');
       background-size:cover;
       background-repeat:no-repeat;
     }
@@ -863,7 +871,7 @@
       -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
       -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
       transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-      background-image:url('/medias/P1050667.jpg');
+      background-image:url('/medias/P1060580.JPG');
       background-size:cover;
       background-repeat:no-repeat;
     }
@@ -1337,11 +1345,15 @@
   html{
     width: 100%;
     height: 100vh;
+    max-width: 509px;
+    margin: 0 auto;
   }
 
   body {
     width: 100%;
     height: 100vh;
+    max-width: 509px;
+    margin: 0 auto;
   }
 
 
@@ -1376,11 +1388,11 @@
       #mainlogo {
         z-index: 2;
         top: 9%;
-          height: 90px;
-          padding-bottom: 50px;
-          left: 1%;
-          position: absolute;
-          
+        height: 90px;
+        padding-bottom: 50px;
+        left: 1%;
+        position: absolute;
+        
       }
 
 
@@ -1553,6 +1565,7 @@
   .prescontainer h2{
     font-size: 30px;
     color: #dddada;
+    
   }
   .prescontainer h2,#prestext1{
     position: relative;
@@ -1578,10 +1591,193 @@
     padding: 40px;
   }
 
-  
+
+
+  .comemap{
+    padding-bottom: 50px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    top: 15vh;
+    left: 0vh;
 }   
   
+.comemap h2{
+  position: relative;
+}
+.comemap span{
+  background: transparent;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 80%;
+  position: relative;
+  left: 5vh;
+  
+}
+.comemapspan{
+  background: transparent;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.privatetext{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  color: #808080;
+  text-align:center;
+  font-size:20px;
+  position:relative;
+  top: 20vh;
+  width:100%;
+  height: auto;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position: bottom 35% left;
+}
 
 
 
+.privatetext h2{
+  position: relative;
+}
+.privatetext span{
+  background: transparent;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  position: relative;
+  left: 0vh;
+  
+}
 
+
+/***********************************************/
+/**********************PHOTO BANNER***************/
+
+#containerslider {
+  position: relative;
+  top: 15vh;
+  width: 100%;
+  left: 0;
+  overflow: hidden;
+  margin: 50px auto;
+  background: transparent;
+}
+/*header*/
+header {
+  width: 800px;
+  margin: 40px auto;
+}
+
+header h1 {
+  text-align: center;
+  font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+  
+}
+
+header p {
+  font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+  text-align: justify;
+}
+
+.photobanner {
+  height: 220px;
+  width: 6640px;
+  margin-bottom: 80px;
+}
+/*keyframe animations*/
+.first {
+  -webkit-animation: bannermove 60s linear infinite;
+      -moz-animation: bannermove 60s linear infinite;
+      -ms-animation: bannermove 60s linear infinite;
+        -o-animation: bannermove 60s linear infinite;
+          animation: bannermove 60s linear infinite;
+}
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -5746px;
+  }
+
+}
+
+@-moz-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -5746px;
+  }
+
+}
+
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -5746px;
+  }
+
+}
+
+@-ms-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -5746px;
+  }
+
+}
+
+@-o-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -5746px;
+  }
+
+}
+.photobanner {
+  height: 242px;
+  width: 8640px;
+  margin-bottom: 80px;
+}
+
+.photobanner img {
+  height : 533px;
+  width:800px; 
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  transform-origin: 100px 0px 0px 0px;
+}
+
+.photobanner img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+}
